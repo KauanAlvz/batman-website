@@ -34,3 +34,64 @@ body{
     text-decoration: none;
     padding-block: 15px;
 }
+.menu-hamburguer{
+    border: none;
+    background: none;
+    border-top: 3px solid #fff;
+    cursor: pointer;
+    display: none;
+}
+.menu-hamburguer::after,
+.menu-hamburguer::before{
+    content: " ";
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
+}
+
+@media (max-width: 750px) {
+    .menu-hamburguer{
+        display: block;
+        z-index: 1;
+    }
+    .nav-list{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgb(53, 52, 52);
+        clip-path: circle(100px at 90% -15%);
+        transition: clip-path 1s ease-out;    
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+    }
+    .nav-list a{
+    font-size: 20px;
+    }
+    .nav.ativo .nav-list{
+    clip-path: circle(1500px at 90% -15%);
+    pointer-events: all;
+    }
+    .nav.ativo .menu-hamburguer{
+        position: fixed;
+        top: 26px;
+        right: 16px;
+        border-top-color: transparent;
+    }
+    .nav.ativo .menu-hamburguer::before{
+        transform: rotate(135deg);
+    }
+    .nav.ativo .menu-hamburguer::after{
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+}
