@@ -55,6 +55,7 @@
 /* inicio seção 2 */
 .bg-escuro{
     background-color: #202020;
+    color: #fff;
 }
 .container2{
     display: flex;
@@ -113,7 +114,7 @@
     margin: 20px 0;
 }
 .card{
-    width: 300px;
+    width: 350px;
     padding: 20px;
     display: flex;
     text-align: center;
@@ -123,16 +124,41 @@
     border-radius: 10px;
     margin: 20px 0;
 }
+.card h3{
+    margin: 5px 0;
+}
 .card-img{
     margin: 10px auto;
     width: 200px;
     height: 200px;
     border-radius: 100px;
 }
-#h3-per{
+#h2-per{
     font-family: 'batman', sans-serif;
     font-size: 35px;
     margin: 20px;
     text-align: center;
 }
 
+/* fim da seção 3 */
+
+/* incio da seção 4 */
+.container4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#h2-con{
+    font-size: 35px;
+    color: #d12e2e;
+    text-align: center;
+    font-family: 'batman', sans-serif;
+    padding: 20px 0px;
+}
+#p-con{
+    width: 700px;
+    display: block;
+    margin: auto;
+    padding: 30px 0;
+}
