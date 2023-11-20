@@ -1,0 +1,12 @@
+/* importação */
+@import url(header.css);
+/* configurações globais */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #000;
+}

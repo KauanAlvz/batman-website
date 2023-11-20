@@ -1,15 +1,7 @@
-*{
-    margin: 0;
-    padding: 0;
-}
-body{
-    font-family: sans-serif;
-    text-decoration: none;
-    color: #fff;
-}
 .header{
-    background-color: rgb(53, 52, 52);
+    background-color: #fff(53, 52, 52);
     padding-inline: 16px;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.171);
 }
 .nav{
     max-width: 1280px;
@@ -20,8 +12,11 @@ body{
     align-items: center;
 }
 .logo{
-    font-size: 50px;
     text-decoration: none;
+}
+.logo img{
+    width: 80px;
+    height: auto;
 }
 .nav-list{
     display: flex;
@@ -30,14 +25,15 @@ body{
 }
 .nav-list a{
     font-size: 18px;
-    color: #fff;
+    color: #000;
     text-decoration: none;
     padding-block: 15px;
+    transition: 0.5s;
 }
 .menu-hamburguer{
     border: none;
     background: none;
-    border-top: 3px solid #fff;
+    border-top: 3px solid #000;
     cursor: pointer;
     display: none;
 }
@@ -47,7 +43,7 @@ body{
     display: block;
     width: 30px;
     height: 3px;
-    background: #fff;
+    background: #000;
     margin-top: 5px;
     position: relative;
     transition: 0.3s;
@@ -64,9 +60,9 @@ body{
         left: 0;
         width: 100vw;
         height: 100vh;
-        background-color: rgb(53, 52, 52);
+        background-color: #fff;
         clip-path: circle(100px at 90% -15%);
-        transition: clip-path 1s ease-out;    
+        transition: clip-path 0.8s ease-out;    
 
         flex-direction: column;
         justify-content: space-around;
@@ -77,20 +73,20 @@ body{
     .nav-list a{
     font-size: 20px;
     }
-    .nav.ativo .nav-list{
+    .nav.menu-ativo .nav-list{
     clip-path: circle(1500px at 90% -15%);
     pointer-events: all;
     }
-    .nav.ativo .menu-hamburguer{
+    .nav.menu-ativo .menu-hamburguer{
         position: fixed;
         top: 26px;
         right: 16px;
         border-top-color: transparent;
     }
-    .nav.ativo .menu-hamburguer::before{
+    .nav.menu-ativo .menu-hamburguer::before{
         transform: rotate(135deg);
     }
-    .nav.ativo .menu-hamburguer::after{
+    .nav.menu-ativo .menu-hamburguer::after{
         transform: rotate(-135deg);
         top: -7px;
     }
