@@ -1,12 +1,17 @@
 /* importação */
 @import url(header.css);
+@import url(main.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;700;800;900&display=swap');
 /* configurações globais */
 *{
     margin: 0;
     padding: 0;
 }
+head{
+    scroll-behavior: smooth;
+}
 body{
-    font-family: sans-serif;
+    font-family: 'poppins', sans-serif;
     text-decoration: none;
     color: #000;
 }

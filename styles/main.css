@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'batman';
+    src: url(../src/batmfa__.ttf);
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.container1 .img img{
+    height: 500px;
+    width: auto;
+    margin: 50px;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.281));
+}
+.container1 .img{
+    width: 50%;
+}
+.container1 .conteudo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 1.6em;
+}
+.container1 .conteudo h2{
+    font-size: 50px;
+    font-family: 'batman', sans-serif;
+    padding: 50px;
+}
+.trailer-button{
+    font-family: 'poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 8px 30px;
+    margin: 30px;
+    background-color: transparent;
+    border: 2px solid #d12e2e;
+    border-radius: 5px;
+    transform: skew(10deg);
+    transition: 0.5s;
+}
+.trailer-button:hover{
+    background-color: #d12e2e;
+    color: #fff;
+}
