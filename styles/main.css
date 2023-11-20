@@ -2,6 +2,8 @@
     font-family: 'batman';
     src: url(../src/batmfa__.ttf);
 }
+
+/* inicio da seção 1 */
 .container1{
     display: flex;
     justify-content: space-between;
@@ -42,8 +44,61 @@
     border-radius: 5px;
     transform: skew(10deg);
     transition: 0.5s;
+    cursor: pointer;
 }
 .trailer-button:hover{
     background-color: #d12e2e;
     color: #fff;
+}
+/* fim da seção 1 */
+
+/* inicio seção 2 */
+.bg-escuro{
+    background-color: #202020;
+}
+.container2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+}
+.container2 .img{
+    width: 50%;
+}
+.container2 .img img{
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+.container2 .conteudo{
+    display: flex;
+    width: 50%;
+    line-height: 1.6em;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+.sm-button{
+    background-color: transparent;
+    font-family: 'poppins', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    padding: 5px 30px;
+    margin: 20px;
+    border-radius: 5px;
+    transform: skew(10deg);
+    color: #fff;
+    border: 2px solid #fff ;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.sm-button:hover{
+    background-color: #fff;
+    color: #202020;
 }
