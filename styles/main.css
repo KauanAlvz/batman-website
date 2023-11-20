@@ -102,3 +102,37 @@
     background-color: #fff;
     color: #202020;
 }
+/* fim da seção 2 */
+
+/* inicio da seção 3 */
+.container3{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    margin: 20px 0;
+}
+.card{
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.315);
+    border-radius: 10px;
+    margin: 20px 0;
+}
+.card-img{
+    margin: 10px auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+#h3-per{
+    font-family: 'batman', sans-serif;
+    font-size: 35px;
+    margin: 20px;
+    text-align: center;
+}
+
