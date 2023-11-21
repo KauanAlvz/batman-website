@@ -22,6 +22,7 @@
     display: flex;
     gap: 32px;
     list-style: none;
+    z-index: 1;
 }
 .nav-list a{
     font-size: 18px;
@@ -36,6 +37,7 @@
     border-top: 3px solid #000;
     cursor: pointer;
     display: none;
+    z-index: 3;
 }
 .menu-hamburguer::after,
 .menu-hamburguer::before{
@@ -52,7 +54,7 @@
 @media (max-width: 750px) {
     .menu-hamburguer{
         display: block;
-        z-index: 1;
+        z-index: 3;
     }
     .nav-list{
         position: fixed;
@@ -61,7 +63,7 @@
         width: 100vw;
         height: 100vh;
         background-color: #fff;
-        clip-path: circle(100px at 90% -15%);
+        clip-path: circle(100px at 90% -25%);
         transition: clip-path 0.8s ease-out;    
 
         flex-direction: column;
