@@ -36,16 +36,13 @@
         justify-content: center;
         align-items: center;
     }
-    .container1 .conteudo{
+    .container1 .conteudo, .container2 .conteudo{
         width: 700px;
     }
     .container2{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-    }
-    .container2 .conteudo{
-        width: 700px;
     }
     .container2 .img{
         width: 100%;
@@ -56,13 +53,7 @@
     }
 }
 @media (max-width: 732px){
-    .container1 .conteudo{
-        width: 600px;
-    }
-    .container2 .conteudo{
-        width: 600px;
-    }
-    #p-con{
+    .container1 .conteudo, .container2 .conteudo, #p-con{
         width: 600px;
     }
 }
@@ -72,22 +63,13 @@
     }
 }
 @media (max-width: 626px) {
-    .container1 .conteudo{
+    .container1 .conteudo, .container2 .conteudo, #p-con{
         width: 450px;
         text-align: center;
     }
     .container1 .img img{
         margin: 0 auto;
     }
-    .container2 .conteudo{
-        width: 450px;
-        text-align: center;
-    }
-    #p-con{
-        width: 450px;
-        text-align: center;
-    }
-    
 }
 @media (max-width: 570px){
     .card{
@@ -113,17 +95,18 @@
     }
 }
 @media (max-width: 485px){
-    .container1 .conteudo{
+    .container1 .conteudo, .container2 .conteudo, #p-con{
         width: 400px;
     }
-    .container2 .conteudo{
-        width: 400px;
+    .container1 .conteudo h2, #h2-per, #h2-con{
+        font-size: 30px;
+        line-height: 2em;
+        padding: 0px;
+        margin: 5px;
+        text-align: center;
     }
     .container2 .img img{
         width: 350px;
-    }
-    #p-con{
-        width: 400px;
     }
     .card{
         width: 400px;
@@ -131,16 +114,7 @@
     }
 }
 @media (max-width: 418px){
-    .card{
-        width: 350px;
-    }
-    #p-con{
-        width: 350px;
-    }
-    .container2 .conteudo{
-        width: 350px;
-    }
-    .container1 .conteudo{
+    .card, #p-con, .container2 .conteudo, .container1 .conteudo{
         width: 350px;
     }
     .container1 .img{
@@ -151,7 +125,7 @@
     .container2 .img img, .card, .container1 .img img, .container1 .img, .container1 .conteudo, #p-con, .container2 .conteudo{
         width: 300px;
     }
-    .container1 .conteudo h2, #h2-per, #h2-con{
-        font-size: 25px;
+    .container2{
+        padding: 3px;
     }
 }
