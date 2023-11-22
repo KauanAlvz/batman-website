@@ -2,7 +2,7 @@ footer{
     font-family: 'inter', sans-serif;
     line-height: 1.6em;
     width: 100%;
-    margin: 10px 0 0;
+    margin: 30px 0 0;
 }
 .footer-content{
     display: grid;
@@ -19,6 +19,12 @@ footer h4, footer h1{
 .titulo h1{
     font-size: 28px;
 }
+.titulo li{
+    margin: 20px 0;
+}
+.titulo a{
+    font-weight: 400;
+}
 footer li{
     list-style: none;
     padding: 5px 0;    
@@ -29,9 +35,25 @@ footer a{
     font-weight: 300;
     text-decoration: none;
 }
+.newsletter button{
+    padding: 3px;
+    background-color: transparent;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+.newsletter input{
+    padding: 3px;
+}
+.newsletter p{
+    padding-bottom: 5px;
+}
 .copyright{
     text-align: center;
     padding: 23px 0;
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 20px;
+}
+.copyright a{
+    font-weight: 500;
+    text-transform: none;
 }
