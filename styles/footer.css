@@ -1,0 +1,37 @@
+footer{
+    font-family: 'inter', sans-serif;
+    line-height: 1.6em;
+    width: 100%;
+    margin: 10px 0 0;
+}
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+footer h4, footer h1{
+    text-transform: uppercase;
+    margin-bottom: 8px;
+
+}
+.titulo{
+    text-align: center;
+}
+.titulo h1{
+    font-size: 28px;
+}
+footer li{
+    list-style: none;
+    padding: 5px 0;    
+}
+footer a{
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 300;
+    text-decoration: none;
+}
+.copyright{
+    text-align: center;
+    padding: 23px 0;
+    font-weight: 500;
+    margin-top: 20px;
+}
