@@ -162,3 +162,57 @@
     margin: auto;
     padding: 30px 0;
 }
+/* fim da seção 4 */
+
+/* inicio da seção 5 */
+#h2-cur{
+    text-align: center;
+    font-family: 'batman', sans-serif;
+    font-size: 35px;
+    margin: 15px 0px;
+}
+.container5{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    justify-items: center;
+}
+.container-flip{
+    position: relative;
+    width: 300px;
+    height: 320px;
+    margin: 20px 0;
+}
+.container-flip:hover .flip{
+    transform: rotateY(180deg);
+}
+.flip{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    transition: .5s;
+}
+.back, .front{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
+    backface-visibility: hidden;
+}
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(180deg);
+}
+.front{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.front img{
+    width: 200px;
+}
