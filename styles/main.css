@@ -181,7 +181,7 @@
     position: relative;
     width: 300px;
     height: 320px;
-    margin: 20px 0;
+    margin: 25px 0;
 }
 .container-flip:hover .flip{
     transform: rotateY(180deg);
@@ -201,6 +201,7 @@
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.192);
     backface-visibility: hidden;
+    padding: 10px;
 }
 .back{
     display: flex;
@@ -213,6 +214,7 @@
     justify-content: center;
     align-items: center;
 }
-.front img{
-    width: 200px;
+.front p{
+    font-size: 45px;
+    font-family: 'batman', sans-serif;
 }
