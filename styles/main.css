@@ -28,15 +28,16 @@
     align-items: center;
     flex-direction: column;
     line-height: 1.6em;
+    font-size: 1.4rem;
 }
 .container1 .conteudo h2{
-    font-size: 50px;
+    font-size: 5.0rem;
     font-family: 'batman', sans-serif;
     padding: 50px;
 }
 .trailer-button{
     font-family: 'poppins', sans-serif;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-weight: 400;
     text-transform: uppercase;
     padding: 8px 30px;
@@ -88,13 +89,14 @@
     flex-direction: column;
     align-items: center;
     margin: 30px;
+    font-size: 1.4rem;
 }
 .sm-button{
     background-color: transparent;
     font-family: 'poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1.5rem;
     padding: 5px 30px;
     margin: 20px;
     border-radius: 5px;
@@ -131,7 +133,11 @@
     margin: 40px 0;
 }
 .card h3{
+    font-size: 1.8rem;
     margin: 5px 0;
+}
+.card p{
+    font-size: 1.4rem;    
 }
 .card-img{
     margin: 10px auto;
@@ -141,7 +147,7 @@
 }
 #h2-per{
     font-family: 'batman', sans-serif;
-    font-size: 35px;
+    font-size: 3.5rem;
     margin: 20px;
     text-align: center;
 }
@@ -159,13 +165,14 @@
     margin: auto;
 }
 #h2-con{
-    font-size: 35px;
+    font-size: 3.5rem;
     color: #d12e2e;
     text-align: center;
     font-family: 'batman', sans-serif;
     padding: 20px 0px;
 }
 #p-con{
+    font-size: 1.5rem;
     width: 700px;
     display: block;
     margin: auto;
@@ -177,7 +184,7 @@
 #h2-cur{
     text-align: center;
     font-family: 'batman', sans-serif;
-    font-size: 35px;
+    font-size: 3.5rem;
     margin: 15px 0px;
 }
 .container5{
@@ -219,6 +226,7 @@
     justify-content: center;
     align-items: center;
     transform: rotateY(180deg);
+    font-size: 1.3rem
 }
 .front{
     display: flex;
@@ -226,6 +234,6 @@
     align-items: center;
 }
 .front p{
-    font-size: 45px;
+    font-size: 4.5rem;
     font-family: 'batman', sans-serif;
 }
