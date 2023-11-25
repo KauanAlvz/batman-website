@@ -2,6 +2,7 @@
     background-color: #fff(53, 52, 52);
     padding-inline: 16px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.171);
+    width: 100%;
 }
 .nav{
     max-width: 980px;
