@@ -2,15 +2,12 @@
     font-family: 'batman';
     src: url(../src/batmfa__.ttf);
 }
-
 /* inicio da seção 1 */
 .container1{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-    max-width: 1440px;
-    margin: auto;
+    
 }
 .container1 .img img{
     height: 500px;
@@ -19,25 +16,26 @@
     filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.281));
 }
 .container1 .img{
-    width: 50%;
+    width: 48%;
 }
 .container1 .conteudo{
-    width: 50%;
+    width: 48%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     line-height: 1.6em;
-    font-size: 1.4rem;
+    font-size: 14px;
+    text-align: center;
 }
 .container1 .conteudo h2{
-    font-size: 5.0rem;
+    font-size: 50px;
     font-family: 'batman', sans-serif;
     padding: 50px;
 }
 .trailer-button{
     font-family: 'poppins', sans-serif;
-    font-size: 1.5rem;
+    font-size: 15px;
     font-weight: 400;
     text-transform: uppercase;
     padding: 8px 30px;
@@ -66,9 +64,6 @@
     align-items: center;
     padding: 20px;
     color: #fff;
-    margin: auto;
-    width: 100vw;
-    max-width: 1440px;
 }
 .container2 .img{
     width: 50%;
@@ -89,14 +84,14 @@
     flex-direction: column;
     align-items: center;
     margin: 30px;
-    font-size: 1.4rem;
+    font-size: 14px;
 }
 .sm-button{
     background-color: transparent;
     font-family: 'poppins', sans-serif;
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 15px;
     padding: 5px 30px;
     margin: 20px;
     border-radius: 5px;
@@ -114,12 +109,9 @@
 
 /* inicio da seção 3 */
 .container3{
-    width: 100%;
-    max-width: 1440px;
     display: grid;
     grid-template-columns: 33.3333333333% 33.3333333333% 33.3333333333%;
     justify-items: center;
-    margin: auto;
 }
 .card{
     width: 350px;
@@ -133,11 +125,11 @@
     margin: 40px 0;
 }
 .card h3{
-    font-size: 1.8rem;
+    font-size: 18px;
     margin: 5px 0;
 }
 .card p{
-    font-size: 1.4rem;    
+    font-size: 14px;    
 }
 .card-img{
     margin: 10px auto;
@@ -147,7 +139,7 @@
 }
 #h2-per{
     font-family: 'batman', sans-serif;
-    font-size: 3.5rem;
+    font-size: 32px;
     margin: 20px;
     text-align: center;
 }
@@ -161,18 +153,16 @@
     justify-content: center;
     align-items: center;
     width: 100%;
-    max-width: 980px;
-    margin: auto;
 }
 #h2-con{
-    font-size: 3.5rem;
+    font-size: 35px;
     color: #d12e2e;
     text-align: center;
     font-family: 'batman', sans-serif;
     padding: 20px 0px;
 }
 #p-con{
-    font-size: 1.5rem;
+    font-size: 15px;
     width: 700px;
     display: block;
     margin: auto;
@@ -184,16 +174,13 @@
 #h2-cur{
     text-align: center;
     font-family: 'batman', sans-serif;
-    font-size: 3.5rem;
+    font-size: 35px;
     margin: 15px 0px;
 }
 .container5{
     display: grid;
     grid-template-columns: 33.3333333333% 33.3333333333% 33.3333333333%;
-    width: 100%;
-    max-width: 1000px;
     justify-items: center;
-    margin: auto    ;
 }
 .container-flip{
     position: relative;
@@ -226,7 +213,7 @@
     justify-content: center;
     align-items: center;
     transform: rotateY(180deg);
-    font-size: 1.3rem
+    font-size: 13px;
 }
 .front{
     display: flex;
@@ -234,6 +221,6 @@
     align-items: center;
 }
 .front p{
-    font-size: 4.5rem;
+    font-size: 45px;
     font-family: 'batman', sans-serif;
 }

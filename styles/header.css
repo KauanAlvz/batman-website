@@ -2,10 +2,8 @@
     background-color: #fff(53, 52, 52);
     padding-inline: 16px;
     box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.171);
-    width: 100%;
 }
 .nav{
-    max-width: 980px;
     height: 70px;
     margin-inline: auto;
     display: flex;
@@ -26,7 +24,7 @@
     z-index: 1;
 }
 .nav-list a{
-    font-size: 1.8rem;
+    font-size: 18px;
     color: #000;
     text-decoration: none;
     padding-block: 15px;
