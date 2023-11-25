@@ -138,3 +138,8 @@
         padding: 3px;
     }
 }
+@media print{
+    body{
+        display: none;
+    }
+}
