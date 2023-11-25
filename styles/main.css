@@ -8,7 +8,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 20px;
+    width: 100%;
+    max-width: 1440px;
+    margin: auto;
 }
 .container1 .img img{
     height: 500px;
@@ -63,6 +65,9 @@
     align-items: center;
     padding: 20px;
     color: #fff;
+    margin: auto;
+    width: 100%;
+    max-width: 1440px;
 }
 .container2 .img{
     width: 50%;
@@ -108,10 +113,11 @@
 /* inicio da seção 3 */
 .container3{
     width: 100%;
+    max-width: 1440px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 33.3333333333% 33.3333333333% 33.3333333333%;
     justify-items: center;
-    margin: 20px 0;
+    margin: auto;
 }
 .card{
     width: 350px;
@@ -122,7 +128,7 @@
     justify-content: center;
     box-shadow: 0px 0px 6px 2px rgba(0, 0, 0, 0.315);
     border-radius: 10px;
-    margin: 20px 0;
+    margin: 40px 0;
 }
 .card h3{
     margin: 5px 0;
@@ -148,6 +154,9 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    max-width: 980px;
+    margin: auto;
 }
 #h2-con{
     font-size: 35px;
@@ -173,9 +182,11 @@
 }
 .container5{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 33.3333333333% 33.3333333333% 33.3333333333%;
     width: 100%;
+    max-width: 1000px;
     justify-items: center;
+    margin: auto    ;
 }
 .container-flip{
     position: relative;
