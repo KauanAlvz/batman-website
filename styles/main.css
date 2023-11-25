@@ -7,7 +7,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+    max-width: 1440px;
+    margin: auto;
 }
 .container1 .img img{
     height: 500px;
@@ -21,6 +22,7 @@
 .container1 .conteudo{
     width: 48%;
     display: flex;
+    padding-inline: 10px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
@@ -64,6 +66,8 @@
     align-items: center;
     padding: 20px;
     color: #fff;
+    max-width: 1440px;
+    margin: auto;
 }
 .container2 .img{
     width: 50%;
@@ -110,8 +114,10 @@
 /* inicio da seção 3 */
 .container3{
     display: grid;
-    grid-template-columns: 33.3333333333% 33.3333333333% 33.3333333333%;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    max-width: 1440px;
+    margin: auto;
 }
 .card{
     width: 350px;
@@ -179,8 +185,10 @@
 }
 .container5{
     display: grid;
-    grid-template-columns: 33.3333333333% 33.3333333333% 33.3333333333%;
+    grid-template-columns: 1fr 1fr 1fr;
     justify-items: center;
+    max-width: 1440px;
+    margin: auto;    
 }
 .container-flip{
     position: relative;
