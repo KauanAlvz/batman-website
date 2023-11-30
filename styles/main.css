@@ -1,6 +1,8 @@
 @font-face {
     font-family: 'batman';
     src: url(../src/batmfa__.ttf);
+    font-display: swap;
+    font-style: normal;
 }
 /* inicio da seção 1 */
 .container1{
