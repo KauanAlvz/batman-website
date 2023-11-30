@@ -16,7 +16,7 @@ footer{
     margin: 0 auto;
     max-width: 980px;
 }
-footer h4, footer h1{
+footer p, footer h1{
     text-transform: uppercase;
     margin-bottom: 8px;
 
